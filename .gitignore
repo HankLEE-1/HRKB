@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Data & artifacts (datasets are not redistributed)
+data_*/
+*.pooled.json
+hrkb_*.json
+!assets/hrkb_example.json
+trained_models/
+log/
+f1_log/
+results/
+*.pth
+*.ckpt
+
+# Figures / binary outputs
+*.pdf
+*.eps
+*.synctex.gz
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
